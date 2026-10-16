@@ -70,13 +70,17 @@ comparison and a live head-to-head runner.
 * Possible next steps: non-myopic planning (rollouts/MCTS), moving targets, estimating sensor reliability online,
   multi-robot search, wall-occluded signals, tuned baselines.
 
-## Publishing
-Nothing has been pushed anywhere. After review:
+## Repository
+
+The EVE-Seeker source code, documentation, tests, experiment results, and mission reports are available in this public GitHub repository:
+
+**GitHub:** https://github.com/payal-priyadarshini-sahoo-pps/eve-seeker
+
+### Clone the project
+
 ```powershell
-git init
-git add .
-git commit -m "EVE-Seeker: uncertainty-aware autonomous search agent"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo>.git
-git push -u origin main
+git clone https://github.com/payal-priyadarshini-sahoo-pps/eve-seeker.git
+cd eve-seeker
 ```
+
+See the Quick Start section above for installation and execution instructions.
