@@ -1,0 +1,88 @@
+{
+  "trials_per_condition": 60,
+  "seeds": "0..59",
+  "strategies": [
+    "random",
+    "greedy",
+    "eve_seeker",
+    "eve_seeker_no_eig"
+  ],
+  "base_config": {
+    "name": "benchmark",
+    "width": 20,
+    "height": 20,
+    "obstacle_density": 0.1,
+    "obstacles": null,
+    "start": null,
+    "eve": null,
+    "stations": null,
+    "n_stations": 2,
+    "min_eve_distance": 6,
+    "vision_range": 1,
+    "signal": {
+      "reliability": 0.8,
+      "strong_radius": 3,
+      "weak_radius": 7
+    },
+    "clues": {
+      "count": 3,
+      "distribution": "uniform",
+      "reliability": 0.75,
+      "radius": 2,
+      "positions": null
+    },
+    "decoys": {
+      "count": 0,
+      "probability": 0.0
+    },
+    "battery": {
+      "capacity": 40.0,
+      "move_cost": 1.0,
+      "scan_cost": 3.0,
+      "wait_cost": 0.2,
+      "recharge_rate": 10.0
+    },
+    "budget": {
+      "max_time": 150,
+      "max_actions": 100,
+      "scan_time": 2
+    },
+    "seed": 0
+  },
+  "sweeps": {
+    "map_size": [
+      "12x12",
+      "20x20",
+      "28x28"
+    ],
+    "obstacle_density": [
+      "0.0",
+      "0.1",
+      "0.25"
+    ],
+    "signal_reliability": [
+      "0.95",
+      "0.8",
+      "0.6",
+      "0.4"
+    ],
+    "misleading_prob": [
+      "0.0",
+      "0.3",
+      "0.6"
+    ],
+    "battery_capacity": [
+      "25",
+      "40",
+      "80"
+    ],
+    "clue_distribution": [
+      "none",
+      "uniform",
+      "near_target",
+      "far_target"
+    ]
+  },
+  "missions": 4800,
+  "seconds": 338.4
+}

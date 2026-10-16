@@ -1,0 +1,8 @@
+{
+  "name": "tiny_demo",
+  "width": 12, "height": 12, "obstacle_density": 0.12, "n_stations": 2, "seed": 1,
+  "signal": {"reliability": 0.85},
+  "clues": {"count": 2, "distribution": "uniform"},
+  "battery": {"capacity": 30},
+  "budget": {"max_time": 100, "max_actions": 70}
+}

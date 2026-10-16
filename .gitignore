@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+*.log
+.idea/
+.vscode/
+# regenerable artefacts
+results/_run.log

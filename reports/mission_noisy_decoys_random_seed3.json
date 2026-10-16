@@ -1,0 +1,18 @@
+{
+  "strategy": "random",
+  "seed": 3,
+  "status": "action_budget_exhausted",
+  "success": false,
+  "actions": 100,
+  "scans": 10,
+  "recharges": 12,
+  "invalid_actions": 0,
+  "energy_used": 108.0,
+  "time_used": 110,
+  "resource_exhausted": true,
+  "final_error": 7.0,
+  "localized_exact": false,
+  "localized_within2": false,
+  "final_entropy": null,
+  "final_confidence": 0.002890173410404624
+}

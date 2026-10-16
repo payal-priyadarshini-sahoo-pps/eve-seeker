@@ -1,0 +1,8 @@
+{
+  "name": "default_mission",
+  "width": 20, "height": 20, "obstacle_density": 0.10, "n_stations": 2, "seed": 7,
+  "signal": {"reliability": 0.8, "strong_radius": 3, "weak_radius": 7},
+  "clues": {"count": 3, "distribution": "uniform", "reliability": 0.75, "radius": 2},
+  "battery": {"capacity": 40, "move_cost": 1, "scan_cost": 3, "wait_cost": 0.2, "recharge_rate": 10},
+  "budget": {"max_time": 150, "max_actions": 100, "scan_time": 2}
+}

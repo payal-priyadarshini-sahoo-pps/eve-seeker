@@ -1,0 +1,7 @@
+{
+  "name": "low_battery",
+  "width": 20, "height": 20, "obstacle_density": 0.10, "n_stations": 3, "seed": 5,
+  "signal": {"reliability": 0.8},
+  "battery": {"capacity": 25},
+  "budget": {"max_time": 180, "max_actions": 120}
+}

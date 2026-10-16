@@ -1,0 +1,9 @@
+{
+  "name": "noisy_decoys",
+  "width": 20, "height": 20, "obstacle_density": 0.15, "n_stations": 2, "seed": 3,
+  "signal": {"reliability": 0.6},
+  "decoys": {"count": 2, "probability": 0.3},
+  "clues": {"count": 4, "distribution": "near_target", "reliability": 0.7},
+  "battery": {"capacity": 40},
+  "budget": {"max_time": 150, "max_actions": 100}
+}
